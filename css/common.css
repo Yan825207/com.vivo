@@ -1,15 +1,21 @@
-/* 公共样式 */
 /* 清除浮动 */
+
 .clearfix:before,
 .clearfix:after {
-  content: '';
-  display: table;
+    content: '';
+    display: table;
 }
 
 .clearfix:after {
-  clear: both;
+    clear: both;
 }
 
 .clearfix {
-  *zoom: 1;
+    *zoom: 1;
+}
+/* 版心 */
+.container{
+    position: relative;
+    width: 1200px; 
+    margin: 0 auto;
 }

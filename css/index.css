@@ -1,0 +1,174 @@
+body {
+    height: 5000px;
+}
+
+.title {
+    width: 100%;
+    height: 30px;
+    background-color: #333333;
+}
+
+.title-left {
+    float: left;
+    font-size: 12px;
+    color: #B0B0B0;
+    line-height: 28px;
+    margin-left: 58px;
+}
+
+.title a {
+    float: left;
+    font-size: 12px;
+    color: #fff;
+}
+
+.title li {
+    float: left;
+    margin-right: 41px;
+    line-height: 30px;
+
+}
+
+.title-right {
+    float: right;
+    margin-right: 52px;
+}
+
+.title a:hover {
+    transition: all 0.3s;
+    color: #999;
+}
+
+.title-right span {
+    position: relative;
+    top: 6px;
+    right: 85px;
+    color: #fff;
+}
+
+.vivo-x3o {
+    position: relative;
+    width: 100%px;
+    height: 680px;
+    background-image: url(../unload/52d8d382d5501cb803bd9f1472e6bbac.jpg_w2560-h680.jpg);
+    background-repeat: no-repeat;
+}
+
+.vivo-x3o h2 {
+    font-size: 26px;
+    color: #fff;
+}
+
+.vivo-x3o .vivo-logo {
+    float: left;
+    margin-top: 20px;
+}
+
+.vivo-x3o ul {
+    float: left;
+    margin-top: 28px;
+    margin-left: 114px;
+
+}
+
+.vivo-x3o li {
+    float: left;
+    height: 40px;
+    margin-right: 34px;
+    font-weight: bold;
+}
+
+.vivo-x3o a {
+    float: left;
+    font-size: 18px;
+
+    color: #fff;
+}
+
+.vivo-x3o .shousuo {
+    float: right;
+    width: 20px;
+    margin-top: 25px;
+}
+
+.vivo-x3o a:hover {
+    color: #0087cd;
+    ;
+}
+
+.x3o-logo img {
+    margin-top: 130px;
+}
+
+.x3o-logo h2 {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.x3o-logo p {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 96px;
+    margin-top: 12px;
+    color: #ccc;
+}
+
+.x3o-logo a {
+    font-size: 20px;
+}
+
+.x3o-logo a:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+    transition: all 1s;
+}
+
+.yjhx {
+    margin: 10px 0;
+}
+
+.yjhx a {
+    float: left;
+    width: 50%;
+    height: 540px;
+    background-size: 100% 100%;
+}
+
+.yjhx .hx{
+    background-image: url(../img/yjhx.jpg);
+}
+.yjhx .lw{
+    /* margin-right: 5px; */
+    background-image: url(../img/twlb.png);
+}
+.yjhx h2{
+    font-size: 28px;
+    color: inherit;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: normal;
+    color: #fff;
+}
+.yjhx p{
+    color: #ffff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: .7;
+    margin-top: 20px;
+}
+.s5xl{
+    background-image: url(../img/s5.jpg);
+    height: 700px;
+}
+
+
+.s5xl a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.s5xl-content img{
+   height: 56px;
+}
