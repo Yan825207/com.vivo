@@ -1,174 +1,92 @@
-body {
-    height: 5000px;
-}
-
-.title {
+.vivo-title {
     width: 100%;
-    height: 30px;
-    background-color: #333333;
+    background-color: #333;
 }
 
-.title-left {
+.vivo-title-left {
     float: left;
-    font-size: 12px;
-    color: #B0B0B0;
-    line-height: 28px;
-    margin-left: 58px;
+    margin-left: 60px;
 }
 
-.title a {
-    float: left;
-    font-size: 12px;
-    color: #fff;
-}
-
-.title li {
-    float: left;
-    margin-right: 41px;
-    line-height: 30px;
-
-}
-
-.title-right {
+.vivo-title-right {
     float: right;
-    margin-right: 52px;
+    margin-right: 60px;
+
 }
 
-.title a:hover {
-    transition: all 0.3s;
+.vivo-title-left li {
+    float: left;
+}
+
+.vivo-title-right li {
+    position: relative;
+    float: left;
+    /* padding-right: 18px; */
+    box-sizing: border-box;
+}
+
+.vivo-title a {
+    height: 32px;
+    color: #ccc;
+    line-height: 32px;
+    margin-right: 40px;
+}
+
+.vivo-title a:hover {
     color: #999;
 }
 
-.title-right span {
-    position: relative;
-    top: 6px;
-    right: 85px;
+.vivo-title-right .sx::after {
+    content: "|";
+    position: absolute;
+    top: 7px;
+    font-size: 14px;
+    right: 18px;
     color: #fff;
 }
 
-.vivo-x3o {
-    position: relative;
-    width: 100%px;
-    height: 680px;
-    background-image: url(../unload/52d8d382d5501cb803bd9f1472e6bbac.jpg_w2560-h680.jpg);
-    background-repeat: no-repeat;
+.nav-top {
+    width: 100%;
+    height: 68px;
+     
 }
 
-.vivo-x3o h2 {
-    font-size: 26px;
-    color: #fff;
-}
-
-.vivo-x3o .vivo-logo {
+.nav-top-left {
     float: left;
-    margin-top: 20px;
+    height: 100%;
+    margin-right: 100px;
 }
 
-.vivo-x3o ul {
-    float: left;
-    margin-top: 28px;
-    margin-left: 114px;
-
+.nav-top-left span {
+    font-size: 40px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.vivo-x3o li {
+.nav-top-left span:hover {
+    color: blue;
+}
+
+.nav-top-right {
     float: left;
-    height: 40px;
-    margin-right: 34px;
+    height: 100%;
+}
+
+.nav-top-right li {
+    float: left;
+    height: 100%;
+
+
+    margin-right: 36px;
+}
+
+.nav-top-right a {
+    line-height: 68px;
+    font-size: 18px;
     font-weight: bold;
 }
 
-.vivo-x3o a {
-    float: left;
-    font-size: 18px;
-
-    color: #fff;
-}
-
-.vivo-x3o .shousuo {
-    float: right;
-    width: 20px;
-    margin-top: 25px;
-}
-
-.vivo-x3o a:hover {
-    color: #0087cd;
-    ;
-}
-
-.x3o-logo img {
-    margin-top: 130px;
-}
-
-.x3o-logo h2 {
-    margin-top: 40px;
-    font-size: 36px;
-    font-weight: normal;
-}
-
-.x3o-logo p {
-    font-size: 20px;
-    line-height: 26px;
-    margin-bottom: 96px;
-    margin-top: 12px;
-    color: #ccc;
-}
-
-.x3o-logo a {
-    font-size: 20px;
-}
-
-.x3o-logo a:hover {
+.nav-top-right a:hover {
     color: blue;
-    border-bottom: 2px solid blue;
-    transition: all 1s;
-}
-
-.yjhx {
-    margin: 10px 0;
-}
-
-.yjhx a {
-    float: left;
-    width: 50%;
-    height: 540px;
-    background-size: 100% 100%;
-}
-
-.yjhx .hx{
-    background-image: url(../img/yjhx.jpg);
-}
-.yjhx .lw{
-    /* margin-right: 5px; */
-    background-image: url(../img/twlb.png);
-}
-.yjhx h2{
-    font-size: 28px;
-    color: inherit;
-    text-align: center;
-    margin-top: 60px;
-    font-weight: normal;
-    color: #fff;
-}
-.yjhx p{
-    color: #ffff;
-    text-align: center;
-    font-size: 20px;
-    line-height: 24px;
-    opacity: .7;
-    margin-top: 20px;
-}
-.s5xl{
-    background-image: url(../img/s5.jpg);
-    height: 700px;
-}
-
-
-.s5xl a{
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.s5xl-content img{
-   height: 56px;
 }
