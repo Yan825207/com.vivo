@@ -109,38 +109,439 @@
     height: 56px;
     margin-top: calc(204px - 68px);
 }
-.nav-top-content span{
+
+.nav-top-content span {
     display: block;
     font-size: 36px;
     color: #000;
     margin-top: 44px;
 }
-.nav-top-content p{
+
+.nav-top-content p {
     margin-top: 18px;
     font-size: 20px;
     color: #35424a;
-}.nav-top-content a{
-    display: block;
+}
+
+.nav-top-content a {
+    display: inline-block;
     position: relative;
 }
-.nav-top-content strong{
-    display: block;
+
+.nav-top-content strong {
+    display: inline-block;
     margin-top: 100px;
     font-size: 20px;
     font-weight: 500;
     color: #000;
 }
-.nav-top-content i{
+
+.nav-top-content i {
     position: absolute;
-    top: -6px;
+    top: 95px;
     left: 85px;
     font-size: 30px;
     color: #000;
     font-weight: bold;
 }
+
 .nav-top-content a:hover strong {
     color: blue;
+    border-bottom: 2px solid blue;
+    transition: all 0.3s;
 }
-.nav-top-content a:hover i{
+
+.nav-top-content a:hover i {
     color: blue;
+    transition: all 0.3s;
+
+}
+
+/* 以旧换新 ，图文镭雕 */
+.huanxin {
+    width: 100%;
+    height: 540px;
+    margin: 5px 0;
+
+}
+
+.huanxin-left {
+    float: left;
+    height: 100%;
+    width: 948px;
+    background-image: url(../img/huanxin-1.jpg);
+    background-position: 50% 50%;
+    background-size: auto 100%;
+}
+
+.huanxin-left h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 72px;
+    text-align: center;
+}
+
+.huanxin-left p {
+    font-size: 20px;
+    color: #daefff;
+    margin-top: 14px;
+    text-align: center;
+}
+
+/* 图文镭雕 */
+.huanxin-right {
+    float: right;
+    height: 100%;
+    width: 948px;
+    background-image: url(../img/huanxin-2.png);
+    background-position: 50% 50%;
+    background-size: auto 100%;
+}
+
+.huanxin-right h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 72px;
+    text-align: center;
+}
+
+.huanxin-right p {
+    font-size: 20px;
+    color: #daefff;
+    margin-top: 14px;
+    text-align: center;
+}
+
+/* X3O系列 */
+.X3O {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/X3Oxilie.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 700px;
+    background-position: 50%;
+}
+
+.X3O-content img {
+    /* width: 286px; */
+    height: 54px;
+    margin-top: 204px;
+}
+
+.X3O-content span {
+    display: block;
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 44px;
+}
+
+.X3O-content p {
+    margin-top: 18px;
+    font-size: 20px;
+    color: #b6b4ba;
+}
+
+.X3O-content a {
+    display: inline-block;
+    position: relative;
+}
+
+.X3O-content strong {
+    display: inline-block;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.X3O-content i {
+    position: absolute;
+    top: 95px;
+    left: 85px;
+    font-size: 30px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.X3O-content a:hover strong {
+    color: blue;
+    border-bottom: 2px solid blue;
+    transition: all 0.3s;
+}
+
+.X3O-content a:hover i {
+    color: blue;
+    transition: all 0.3s;
+}
+
+/* iQOO Pro  */
+.iQOO {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/iQQO.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 700px;
+    background-position: 50%;
+    margin-bottom: 5px;
+}
+
+.iQOO-content img {
+    height: 54px;
+    margin-top: 204px;
+}
+
+.iQOO-content span {
+    display: block;
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 44px;
+}
+
+.iQOO-content p {
+    margin-top: 18px;
+    font-size: 20px;
+    color: #b6b4ba;
+}
+
+.iQOO-content a {
+    display: inline-block;
+    position: relative;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.iQOO-content strong {
+    display: inline-block;
+
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.iQOO-content i {
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    left: 85px;
+    font-size: 30px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.iQOO-content a:hover strong {
+    color: blue;
+    border-bottom: 2px solid blue;
+    transition: all 0.3s;
+}
+
+.iQOO-content a:hover i {
+    color: blue;
+    transition: all 0.3s;
+}
+
+/* 广告位 */
+.ggw {
+    overflow: hidden;
+}
+
+.ggw-one,
+.ggw-two,
+.ggw-three,
+.ggw-four {
+    float: left;
+    width: 25%;
+    height: 580px;
+    background-image: url(../img/ggw-1.jpg);
+    background-position: center center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.ggw a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.ggw h2 {
+    font-size: 28px;
+    color: #fff;
+    margin-top: 74px;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.ggw p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 16px;
+    color: #eceaff;
+
+}
+
+.ggw span {
+    font-size: 22px;
+}
+
+.ggw-two {
+    background-image: url(../img/ggw-2.jpg);
+}
+
+.ggw-three {
+    background-image: url(../img/ggw-3.jpg);
+}
+
+.ggw-four {
+    background-image: url(../img/ggw-4.jpg);
+}
+
+.ggw-two h2,
+.ggw-three h2,
+.ggw-four h2 {
+    color: #000;
+}
+
+.ggw-two p,
+.ggw-three p,
+.ggw-four p {
+    color: #1f2831;
+}
+
+/* 底部 */
+.vivo-bottom {
+    padding-top: 80px;
+    margin-bottom: 100px;
+    background-color: #f7f7f7;
+}
+
+.vivo-bottom-content {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.vivo-bottom-left {
+    float: left;
+    padding-bottom: 70px;
+
+}
+
+.vivo-bottom-left dl {
+    float: left;
+
+}
+
+.vivo-bottom-left dl:first-child(1) {
+    margin-left: 20px;
+}
+
+.vivo-bottom-left dt {
+    width: 180px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+
+.vivo-bottom-left a {
+    font-size: 14px;
+    line-height: 36px;
+    color: #666;
+}
+
+.vivo-bottom-right {
+    float: right;
+    width: 200px;
+    height: 100%;
+}
+
+.vivo-bottom-right .kf {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 36px;
+}
+
+.vivo-bottom-right i {
+    float: left;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.vivo-bottom-right h2 {
+    float: left;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.vivo-bottom-right h3 {
+    font-size: 24px;
+    color: #4164ff;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.vivo-bottom-right p {
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.vivo-bottom-right i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.vivo-bottom-right a {
+    float: left;
+    display: block;
+}
+
+.vivo-bottom-right a:hover {
+    color: #4164ff;
+    transition: all 1s;
+}
+
+.zttb {
+    position: relative;
+}
+
+
+
+.zttb .weixin {
+    position: absolute;
+    /* display: none; */
+    top: -200px;
+    left: -35px;
+    background-color: #FFF;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.zttb .weixin img {
+    width: 115px;
+    height: 115px;
+}
+
+.weixin span {
+    display: block;
+    margin-top: 12px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+
+.zttb i:nth-child(2):hover .weixin {
+    display: block;
+}
+.weixin::before{
+    content: "";
+    /* display: block; */
+    width: 0;
+    height: 0;
+  border: 10px solid red;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom : transparent;
 }
