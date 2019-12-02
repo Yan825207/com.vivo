@@ -1,0 +1,58 @@
+.top-one img {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.ckty {
+    background-color: #8F1520;
+}
+
+.ckty li {
+    float: left;
+    width: 580px;
+    height: 490px;
+    margin-top: 20px;
+}
+.ckty .tu{
+    height: 100%;
+}
+.ckty a {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #E1E9FE;
+}
+
+.ckty img {
+    display: block;
+    width: 375px;    
+    /* height: 414px; */
+    margin: 0 auto;
+}
+
+.ckty li:nth-child(2n+1) {
+    margin-right: 20px;
+}
+.ckty .tu{
+    position: absolute;
+    width: 100%;
+}
+.mianxi{
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 54px;
+background-image: linear-gradient(transparent,#666);
+}
+.mianxi span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 54px;
+    padding-left: 30px;
+}

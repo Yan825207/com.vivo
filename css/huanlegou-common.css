@@ -1,0 +1,17 @@
+.container{
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+/* 清楚浮动 */
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.container{
+    *zoom: 1;
+}
