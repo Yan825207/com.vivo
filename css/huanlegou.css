@@ -1,11 +1,30 @@
-.top-one img {
-    float: left;
+.top img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.top-two {
+    position: relative;
+}
+
+.maodian a {
+    display: block;
     width: 100%;
     height: 100%;
 }
 
+.maodian {
+    position: absolute;
+    top: 130px;
+    left: 325px;
+    width: 200px;
+    height: 200px;
+}
+
 .ckty {
     background-color: #8F1520;
+    padding-bottom: 20px;
 }
 
 .ckty li {
@@ -14,9 +33,7 @@
     height: 490px;
     margin-top: 20px;
 }
-.ckty .tu{
-    height: 100%;
-}
+
 .ckty a {
     float: left;
     position: relative;
@@ -27,7 +44,7 @@
 
 .ckty img {
     display: block;
-    width: 375px;    
+    width: 375px;
     /* height: 414px; */
     margin: 0 auto;
 }
@@ -35,17 +52,20 @@
 .ckty li:nth-child(2n+1) {
     margin-right: 20px;
 }
-.ckty .tu{
-    position: absolute;
+
+.ckty .tu {
+    position: relative;
     width: 100%;
 }
-.mianxi{
-position: absolute;
-bottom: 0;
-width: 100%;
-height: 54px;
-background-image: linear-gradient(transparent,#666);
+
+.mianxi {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 54px;
+    background-image: linear-gradient(transparent, #666);
 }
+
 .mianxi span {
     position: absolute;
     left: 0;
@@ -55,4 +75,226 @@ background-image: linear-gradient(transparent,#666);
     color: #fff;
     line-height: 54px;
     padding-left: 30px;
+}
+
+.tu-content {
+    background-color: #fff;
+}
+
+.tu-content-left {
+    float: left;
+    width: 320px;
+    height: 115px;
+}
+
+.tu-content-right {
+    float: right;
+    width: 190px;
+    height: 115px;
+
+}
+
+.tu-content-left span {
+    display: block;
+    width: 100%;
+    font-size: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 34px;
+    box-sizing: border-box;
+    line-height: 78px;
+    font-weight: normal;
+    font-family: ATRotisSemiSans ExtraBold;
+}
+
+.tu-content-left p {
+    font-size: 18px;
+    color: #555;
+    padding-left: 34px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price {
+    margin-top: 15px;
+}
+
+.price span {
+    font-size: 32px;
+    color: #ec3f3f;
+
+}
+
+.price del {
+    font-size: 20px;
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.botton {
+    font-size: 16px;
+    color: #fff;
+    background-color: #ec3f3f;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 25px;
+    margin-top: 8px;
+}
+
+.top-seven-left {
+    position: absolute;
+    top: -600px;
+    left: -8px;
+    width: 580px;
+    height: 595px;
+}
+
+.top-seven-left a,
+.top-seven-right a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.top-seven-right {
+    position: absolute;
+    top: -600px;
+    right: 14px;
+    width: 580px;
+    height: 595px;
+}
+
+.top-eight-left {
+    position: absolute;
+    top: -613px;
+    left: -8px;
+    width: 580px;
+    height: 595px;
+}
+
+.top-eight-left a,
+.top-eight-right a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.top-eight-right {
+    position: absolute;
+    top: -613px;
+    right: 14px;
+    width: 580px;
+    height: 595px;
+}
+.top-11 img,
+.top-12 img,
+.top-13 img,
+.top-14 img,
+.top-15 img,
+.top-16 img,
+.top-17 img,
+.top-18 img,
+.top-19 img,
+.top-20 img{
+    vertical-align: middle;
+}
+.top-11-content {
+    position: absolute;
+    top: -93px;
+    left: 436px;
+    width: 300px;
+    height: 74px;
+}
+.top-11-content a{
+    display: block;
+    height: 100%;
+}
+
+
+.top-12-content a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.top-12-content {
+    position: absolute;
+    top: -340px;
+    left: 0px;
+    width: 1195px;
+    height: 334px;
+}
+
+.accessories{
+    padding-top: 20px;
+ background-color: rgb(143, 21, 32);
+}
+.accessories li{
+    position: relative;
+    float: left;
+    width: 380px;
+    height: 500px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #FBFBFB;
+}
+.accessories-top{
+    position: relative;
+    height: 334px;
+}
+.accessories-bottom{
+    height: 166px;
+    background-color: #fff;
+    padding: 10px 20px 25px;
+    box-sizing: border-box;
+}
+.accessories-top img{
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+.accessories-top .mianxi-logo{
+    position: absolute;
+    top: 20px;
+   right: 20px;
+    width: 80px;
+    height: 80px;
+}
+.accessories-bottom-top span{
+    display: block;
+    font-size: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: ATRotisSemiSans ExtraBold;
+}
+.accessories-bottom-top p{
+font-size: 20px;
+white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: ATRotisSemiSans ExtraBold;
+    margin-top: 14px;
+
+}
+.accessories-bottom-bottom{
+    width: 220px;
+    height: 40px;
+    margin: 10px auto;
+}
+.accessories-bottom-bottom .price{
+    float: left;
+}
+.accessories-bottom-bottom .botton{
+    float: right;
+}
+.accessories ul li:nth-child(3),
+.accessories ul li:nth-child(6),
+.accessories ul li:nth-child(9){
+    margin-right: 0;
 }
