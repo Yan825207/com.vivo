@@ -89,7 +89,9 @@ svg {
     width: calc(1200px - 206px);
     height: 100%;
 }
-
+.nav-top-right ul{
+    height: 68px;
+}
 .nav-top-right li {
     float: left;
     height: 100%;
@@ -106,6 +108,7 @@ svg {
     color: blue;
 }
 
+/* 隐藏效果 */
 .yincang {
     display: none;
     position: absolute;
@@ -114,69 +117,78 @@ svg {
     width: 1903px;
     height: 0px;
     background-color: #fff;
-   
-
 }
 
-.yingcang-one:hover .yincang {
+.nav-top-right-one:hover .yincang {
     display: block;
-}
-.yingcang-one:hover .yincang {
     transition: all 1s;
     height: 300px;
 }
-.yingcang-1{
+
+.yingcang-1 {
     float: left;
     padding-left: 80px;
+    margin: 0 auto;
 }
+
 .yingcang-1-top {
     position: relative;
     width: 160px;
     height: 200px;
 }
+
 .yingcang-1-bottom {
     width: 160px;
     height: 50px;
     text-align: center;
 }
-.yingcang-1-bottom p{
+
+.yingcang-1-bottom p {
     font-size: 16px;
     color: #333;
 }
-.yingcang-1-bottom span a{
+
+.yingcang-1-bottom span a {
     font-size: 12px;
     color: blue;
     line-height: 30px;
 }
-.yingcang-1-top img{
-    display:block;
+
+.yingcang-1-top img {
+    display: block;
     width: 70px;
     height: 160px;
-    
+
 }
-.iQ-cdt-1{
+
+.iQ-cdt-1 {
     position: absolute;
     top: 0;
     left: 30px;
 }
-.iQ-cdt-2{
+
+.iQ-cdt-2 {
     position: absolute;
     top: 0;
     left: 30px;
 }
-.iQ-cdt-3{
+
+.iQ-cdt-3 {
     position: absolute;
     top: 0;
     left: 30px;
 }
-.iQ-cdt-4{
+
+.iQ-cdt-4 {
     position: absolute;
     left: 60px;
 }
-.yingcang-1-right{
+
+.yingcang-1-right {
     float: right;
 }
-.qbjx a{
+
+.qbjx a {
     float: right;
     width: 200px;
     height: 60px;
@@ -189,7 +201,8 @@ svg {
     border-radius: 40px;
     margin-top: 20px;
 }
-.dbjx a{
+
+.dbjx a {
     float: right;
     width: 200px;
     height: 60px;
@@ -202,13 +215,49 @@ svg {
     border-radius: 40px;
     margin-top: 10px;
 }
-.yingcang-1-right a:hover{
+
+.yincang .yingcang-1-right a:hover {
     transition: all 0.5s;
     background-color: #415FFF;
     color: #fff;
 }
 
-
+.nav-top-right-two:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+.nav-top-right-three:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+.nav-top-right-four:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+.nav-top-right-five:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+.nav-top-right-six:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+.nav-top-right-seven:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+.nav-top-right-eight:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+/* 隐藏效果结束 */
 
 
 .s5ks {
@@ -303,7 +352,11 @@ svg {
     background-position: 50% 50%;
     background-size: auto 100%;
 }
-
+.huanxin-left a{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
 .huanxin-left h2 {
     font-size: 30px;
     color: #fff;
@@ -327,7 +380,11 @@ svg {
     background-position: 50% 50%;
     background-size: auto 100%;
 }
-
+.huanxin-right a{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
 .huanxin-right h2 {
     font-size: 30px;
     color: #fff;

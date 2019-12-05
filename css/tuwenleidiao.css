@@ -1,0 +1,754 @@
+body{
+    width: 1920px;
+}
+.vivo-title {
+    width: 100%;
+    background-color: #333;
+}
+
+.vivo-title-left {
+    float: left;
+    margin-left: 60px;
+}
+
+.vivo-title-right {
+    float: right;
+    margin-right: 60px;
+
+}
+
+.vivo-title-left li {
+    float: left;
+}
+
+.vivo-title-right li {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+
+.vivo-title a {
+    height: 32px;
+    color: #ccc;
+    line-height: 32px;
+    margin-right: 40px;
+}
+
+.vivo-title a:hover {
+    color: #999;
+}
+
+.vivo-title-right .sx::after {
+    content: "|";
+    position: absolute;
+    top: 7px;
+    font-size: 14px;
+    right: 18px;
+    color: #fff;
+}
+
+.nav-top {
+    position: relative;
+    width: 100%;
+    height: 68px;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.nav-top-left {
+    float: left;
+    height: 68px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.vp-head-logo {
+    float: left;
+    height: 68px;
+}
+
+svg {
+    width: 106px;
+    height: 68px;
+    fill: #000;
+    margin-right: 100px;
+    overflow: hidden;
+}
+
+.nav-top-left span {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-top-left span:hover {
+    color: blue;
+}
+
+.nav-top-right {
+    float: left;
+    width: calc(1200px - 206px);
+    height: 100%;
+}
+.nav-top-right ul{
+    height: 68px;
+}
+.nav-top-right li {
+    float: left;
+    height: 100%;
+    margin-right: 36px;
+}
+
+.nav-top-right a {
+    line-height: 68px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-top-right li:hover a {
+    color: blue;
+}
+
+/* 隐藏效果 */
+.yincang {
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: -352px;
+    width: 1903px;
+    height: 0px;
+    background-color: #fff;
+}
+
+.nav-top-right-one:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+
+.yingcang-1 {
+    float: left;
+    padding-left: 80px;
+    margin: 0 auto;
+}
+
+.yingcang-1-top {
+    position: relative;
+    width: 160px;
+    height: 200px;
+}
+
+.yingcang-1-bottom {
+    width: 160px;
+    height: 50px;
+    text-align: center;
+}
+
+.yingcang-1-bottom p {
+    font-size: 16px;
+    color: #333;
+}
+
+.yingcang-1-bottom span a {
+    font-size: 12px;
+    color: blue;
+    line-height: 30px;
+}
+
+.yingcang-1-top img {
+    display: block;
+    width: 70px;
+    height: 160px;
+
+}
+
+.iQ-cdt-1 {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.iQ-cdt-2 {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.iQ-cdt-3 {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.iQ-cdt-4 {
+    position: absolute;
+    left: 60px;
+}
+
+.yingcang-1-right {
+    float: right;
+}
+
+.qbjx a {
+    float: right;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #333;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.dbjx a {
+    float: right;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #333;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+.yincang .yingcang-1-right a:hover {
+    transition: all 0.5s;
+    background-color: #415FFF;
+    color: #fff;
+}
+
+.nav-top-right-two:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+.nav-top-right-three:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+.nav-top-right-four:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+.nav-top-right-five:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+.nav-top-right-six:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+.nav-top-right-seven:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+.nav-top-right-eight:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+/* 隐藏效果 */
+/* 一 */
+.first{
+    position: relative;
+}
+.first img{
+    vertical-align: middle;
+}
+.first-ksdz{
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 215px;
+    height: 90px;
+}
+.first a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* 二 */
+.two-ksdz{
+    position: absolute;
+    bottom: 35px;
+    right: 555px;
+    width: 215px;
+    height: 90px;
+}
+/* 三 */
+.three-ksdz{
+    position: absolute;
+    bottom: 16px;
+    right: 567px;
+    width: 176px;
+    height: 61px;
+}
+.three-one-ksdz{
+    position: absolute;
+    bottom: 16px;
+    left: 567px;
+    width: 176px;
+    height: 61px;
+}
+.four-ksdz{
+    position: absolute;
+    bottom: 36px;
+    left: 567px;
+    width: 176px;
+    height: 61px;
+}
+.five-ksdz{
+    position: absolute;
+    bottom: 48px;
+    left: 567px;
+    width: 176px;
+    height: 61px;
+}
+.six-ksdz{
+    position: absolute;
+    bottom: 16px;
+    right: 567px;
+    width: 176px;
+    height: 61px;
+}
+.six-one-ksdz{
+    position: absolute;
+    bottom: 16px;
+    left: 567px;
+    width: 176px;
+    height: 61px;
+}
+.first .tu-left{
+    position: absolute;
+    top: 0;
+    left: 367px;
+    width: 600px;
+    height: 300px;
+}
+.first .tu-right{
+    position: absolute;
+    top: 0;
+    right: 343px;
+    width: 600px;
+    height: 300px;
+}
+.tu-left-bottom{
+    position: absolute;
+    left: 573px;
+    bottom: 20px;
+    width: 190px;
+    height: 35px;
+}
+.first .tu-left-bottom a{
+    float: left;
+    width: 50%;
+
+}
+
+.tu-right-bottom{
+    position: absolute;
+    right: 550px;
+    bottom: 20px;
+    width: 190px;
+    height: 35px;
+}
+.first .tu-right-bottom a{
+    float: left;
+    width: 50%;
+}
+.bottom-dingzhi-left{
+    position: absolute;
+    top: 374px;
+    left: 554px;
+    width: 217px;
+    height: 35px;
+}
+.bottom-dingzhi-left a{
+     float: left;
+     width: 50%;
+}
+.bottom-dingzhi-right{
+    position: absolute;
+    top: 376px;
+    right: 552px;
+    width: 197px;
+    height: 35px;   
+}
+.first .dingzhi-three{
+    position: absolute;
+    top: 441px;
+    left: 368px;
+    width: 600px;
+    height: 300px;
+}
+.first .dingzhi-four{
+    position: absolute;
+    top: 441px;
+    right: 343px;
+    width: 600px;
+    height: 300px;
+}
+.bottom-dingzhi-three{
+    position: absolute;
+    top: 806px;
+    left: 558px;
+    width: 217px;
+    height: 35px;
+}
+.bottom-dingzhi-three a{
+    float: left;
+    width: 50%;
+}
+.bottom-dingzhi-four{
+    position: absolute;
+    top: 806px;
+    right: 600px;
+    width: 100px;
+    height: 35px;
+}
+.first .last-tu{
+    position: absolute;
+    top: 12px;
+    left: 367px;
+    width: 600px;
+    height: 300px;
+}
+.last-tu-bottom{
+    position: absolute;
+    top: 377px;
+    left: 567px;
+    width: 200px;
+    height: 35px;
+
+}
+.last-tu-bottom a{
+    float: left;
+    width: 50%;
+}
+.vivo-bottom {
+    padding-top: 80px;
+    background-color: #f7f7f7;
+}
+
+.vivo-bottom-content {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.vivo-bottom-left {
+    float: left;
+    padding-bottom: 70px;
+
+}
+
+.vivo-bottom-left dl {
+    float: left;
+
+}
+
+.vivo-bottom-left dl:first-child(1) {
+    margin-left: 20px;
+}
+
+.vivo-bottom-left dt {
+    width: 180px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+
+.vivo-bottom-left a {
+    font-size: 14px;
+    line-height: 36px;
+    color: #666;
+}
+
+.vivo-bottom-right {
+    float: right;
+    width: 200px;
+    height: 100%;
+}
+
+.vivo-bottom-right .kf {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 36px;
+}
+
+.vivo-bottom-right i {
+    float: left;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.vivo-bottom-right h2 {
+    float: left;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.vivo-bottom-right h3 {
+    font-size: 24px;
+    color: #4164ff;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.vivo-bottom-right p {
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.vivo-bottom-right i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.vivo-bottom-right a {
+    float: left;
+    display: block;
+}
+
+.vivo-bottom-right a:hover {
+    color: #4164ff;
+    transition: all 1s;
+}
+
+.zttb {
+    position: relative;
+}
+
+/* 微信 */
+.zttb .weixin {
+    position: absolute;
+    display: none;
+    top: -200px;
+    left: -35px;
+    background-color: #FFF;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.zttb .weixin img {
+    width: 115px;
+    height: 115px;
+}
+
+
+
+.zttb i:nth-child(2):hover .weixin {
+    display: block;
+}
+
+.zttb i:nth-child(2):hover {
+    color: #4164ff;
+}
+
+.weixin span {
+    position: relative;
+    display: block;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #000;
+    font-family: "微软雅黑";
+}
+
+.weixin::before {
+    position: absolute;
+    bottom: -31px;
+    left: 69px;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 20px solid #fff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+/* 支付宝 */
+.zttb .zfb {
+    position: absolute;
+    display: none;
+    top: -200px;
+    left: 8px;
+    background-color: #FFF;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.zttb .zfb img {
+    width: 115px;
+    height: 115px;
+}
+
+.zfb::before {
+    position: absolute;
+    bottom: -31px;
+    left: 69px;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 20px solid #fff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.zttb i:nth-child(3):hover .zfb {
+    display: block;
+}
+
+.zttb i:nth-child(3):hover {
+    color: #4164ff;
+}
+
+.zfb span {
+    position: relative;
+    display: block;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #000;
+    font-family: "微软雅黑";
+}
+
+.zttb .zfb {
+    position: absolute;
+    display: none;
+    top: -200px;
+    left: 8px;
+    background-color: #FFF;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.zttb .zfb img {
+    width: 115px;
+    height: 115px;
+}
+
+/* 小程序 */
+.zttb .xcx {
+    width: 156px;
+    position: absolute;
+    display: none;
+    top: -200px;
+    left: 8px;
+    background-color: #FFF;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.zttb .xcx img {
+    width: 115px;
+    height: 115px;
+}
+
+.xcx::before {
+    position: absolute;
+    bottom: -31px;
+    left: 69px;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 20px solid #fff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.zttb i:nth-child(4):hover .xcx {
+    display: block;
+}
+
+.zttb i:nth-child(4):hover {
+    color: #4164ff;
+}
+
+.xcx span {
+    position: relative;
+    display: block;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #000;
+    font-family: "微软雅黑";
+}
+
+.zttb .xcx {
+    position: absolute;
+    /* display: none; */
+    float: left;
+    top: -200px;
+    left: 48px;
+    background-color: #FFF;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.zttb .xcx img {
+    width: 115px;
+    height: 115px;
+}
+
+.vivo-last {
+    background-color: #F7F7F7;
+
+}
+
+.vivo-last p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #6f6f6f;
+    margin-left: 184px;
+}
+
+.vivo-last p,
+.vivo-last i,
+.vivo-last a,
+.vivo-last img {
+    float: left;
+    margin-top: 30px;
+}
+
+.vivo-last a {
+    color: #6f6f6f;
+}
+
+
+.vivo-last i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.vivo-last img {
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.vivo-last a:nth-last-child(1) {
+    margin-left: 5px;
+    margin-top: 28px;
+}
+.vivo-bottom-left a:hover{
+    color: #415FFF;
+}
