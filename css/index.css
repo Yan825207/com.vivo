@@ -401,6 +401,7 @@ svg {
 
 /* X3O系列 */
 .X3O {
+    position: relative;
     width: 100%;
     height: 700px;
     background-image: url(../img/X3Oxilie.jpg);
@@ -409,7 +410,13 @@ svg {
     background-position: 50%;
     margin-bottom: 5px;
 }
-
+.vivo-X3O-lianjie{
+    position: absolute;
+    top: 0;
+    left: -352px;
+    width: 1903px;
+    height: 700px;
+}
 .X3O-content img {
     /* width: 286px; */
     height: 54px;

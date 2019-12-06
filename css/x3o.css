@@ -284,12 +284,13 @@ img {
     left: 595px;
     width: 160px;
     height: 60px;
-    background-color: rgba(250, 99, 99, .5);
+
     border: 1px solid #ccc;
     border-radius: 50px;
 }
 
-.X3O-two-yuyue a {
+.X3O-two-yuyue a ,
+.X3O-eight-yuyue a{
     display: block;
     width: 100%;
     height: 100%;
@@ -299,8 +300,14 @@ img {
     font-size: 20px;
     font-family: STKaiti;
 }
-.video{
+
+.video {
     background-color: #010207;
+}
+
+.video img {
+    opacity: 0.7;
+
 }
 
 embed {
@@ -314,14 +321,15 @@ embed {
     width: 1000px;
     height: 600px;
 }
-.video-centent{
+
+.video-centent {
     position: relative;
     width: 1000px;
     height: 600px;
     margin: auto;
-    opacity: 0.7;
 }
-.video-button{
+
+.video-button {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -336,10 +344,694 @@ embed {
     border: 1px solid transparent;
     box-sizing: border-box;
     border-radius: 50%;
-    background-color: rgba(0,0,0,.75);
+    background-color: rgba(0, 0, 0, .75);
 }
-.video-button:hover embed{
+
+.video-button:hover embed {
     display: block;
     z-index: 999;
-    background-color:rgba(0,0,0,1);
+}
+.X3O-five-tu ,
+.X3O-nine-tu{
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    margin-left: -587px;
+    width: 1180px;
+    height: 474px;
+
+}
+.X3O-five-tu a,
+.X3O-six-tu a,
+.X3O-nine-tu a,
+.X3O-11-tu a {
+    display: block;     
+    width: 100%;
+    height: 100%;
+}
+.X3O-six-tu {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -587px;
+    width: 1180px;
+    height: 474px;
+
+}
+.X3O-eight {
+    position: relative;
+}
+
+.X3O-eight-yuyue {
+    position: absolute;
+    top: 150px;
+    right: 690px;
+    width: 160px;
+    height: 60px;
+
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+.X3O-nine,
+.X3O-11 ,
+.X3O-five,
+.X3O-six{
+    position: relative;
+}
+
+
+.X3O-11-tu {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -587px;
+    width: 1180px;
+    height: 474px;
+
+}
+
+
+
+/* 爆品推荐 */
+.top img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.top-two {
+    position: relative;
+}
+
+.maodian a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.maodian {
+    position: absolute;
+    top: 130px;
+    left: 325px;
+    width: 200px;
+    height: 200px;
+}
+
+.ckty {
+    background-color: #000;
+    padding-bottom: 20px;
+}
+
+.ckty li {
+    float: left;
+    width: 580px;
+    height: 490px;
+    margin-top: 20px;
+}
+
+.ckty a {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #E1E9FE;
+}
+
+.ckty img {
+    display: block;
+    width: 375px;
+    margin: 0 auto;
+}
+
+.ckty li:nth-child(2n+1) {
+    margin-right: 20px;
+}
+
+.ckty .tu {
+    position: relative;
+    width: 100%;
+}
+
+.mianxi {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 54px;
+    background-image: linear-gradient(transparent, #666);
+}
+
+.mianxi span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 54px;
+    padding-left: 30px;
+}
+
+.tu-content {
+    background-color: #fff;
+}
+
+.tu-content-left {
+    float: left;
+    width: 320px;
+    height: 115px;
+}
+
+.tu-content-right {
+    float: right;
+    width: 190px;
+    height: 115px;
+
+}
+
+.tu-content-left span {
+    display: block;
+    width: 100%;
+    font-size: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 34px;
+    box-sizing: border-box;
+    line-height: 78px;
+    font-weight: normal;
+    font-family: ATRotisSemiSans ExtraBold;
+}
+
+.tu-content-left p {
+    font-size: 18px;
+    color: #555;
+    padding-left: 34px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price {
+    margin-top: 15px;
+}
+
+.price span {
+    font-size: 32px;
+    color: #ec3f3f;
+
+}
+
+.price del {
+    font-size: 20px;
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.botton {
+    font-size: 16px;
+    color: #fff;
+    background-color: #ec3f3f;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 25px;
+    margin-top: 8px;
+}
+
+/*  */
+/* 配件 */
+.accessories {
+    padding-top: 20px;
+    background-color: #000;
+}
+
+.accessories li {
+    position: relative;
+    float: left;
+    width: 380px;
+    height: 500px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #FBFBFB;
+}
+
+.accessories-top {
+    position: relative;
+    height: 334px;
+}
+
+.accessories-bottom {
+    height: 166px;
+    background-color: #fff;
+    padding: 10px 20px 25px;
+    box-sizing: border-box;
+}
+
+.accessories-top img {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.accessories-top .mianxi-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.accessories-bottom-top span {
+    display: block;
+    font-size: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: ATRotisSemiSans ExtraBold;
+}
+
+.accessories-bottom-top p {
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: ATRotisSemiSans ExtraBold;
+    margin-top: 14px;
+
+}
+
+.accessories-bottom-bottom {
+    width: 220px;
+    height: 40px;
+    margin: 10px auto;
+}
+
+.accessories-bottom-bottom .price {
+    float: left;
+}
+
+.accessories-bottom-bottom .botton {
+    float: right;
+}
+
+.accessories ul li:nth-child(3),
+.accessories ul li:nth-child(6),
+.accessories ul li:nth-child(9) {
+    margin-right: 0;
+}
+
+/*  */
+.X3O-13 {
+    position: relative;
+}
+
+.X3O-13-guize {
+    position: absolute;
+    top: 42px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 70px;
+
+}
+
+.guize-centent {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1140px;
+    height: 800px;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    overflow: auto;
+
+}
+
+.guize-centent h2 {
+    font-size: 18px;
+    font-family: STKaiti;
+    text-align: center;
+    line-height: 100px;
+    color: #999;
+}
+
+.guize-centent p {
+    font-size: 14px;
+    color: #000;
+    line-height: 30px;
+    font-family: monospace;
+}
+
+.guize-centent button {
+    display: block;
+    background-color: #409EFF;
+    margin: 20px auto;
+    width: 110px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.zhezhao {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1920px;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.X3O-13-guize:hover .guize-centent {
+    display: block;
+}
+
+.X3O-13-guize:hover .zhezhao {
+    display: block;
+}
+/* 底部 */.vivo-bottom {
+    font-family: STKaiti;
+    padding-top: 10px;
+    background-color: #f7f7f7;
+}
+
+.vivo-bottom-content {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.vivo-bottom-left {
+    float: left;
+    padding-bottom: 70px;
+
+}
+
+.vivo-bottom-left dl {
+    float: left;
+
+}
+
+.vivo-bottom-left dl:first-child(1) {
+    margin-left: 20px;
+}
+
+.vivo-bottom-left dt {
+    width: 180px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+
+.vivo-bottom-left a {
+    font-size: 14px;
+    line-height: 36px;
+    color: #666;
+}
+
+.vivo-bottom-right {
+    float: right;
+    width: 200px;
+    height: 100%;
+}
+
+.vivo-bottom-right .kf {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 36px;
+}
+
+.vivo-bottom-right i {
+    float: left;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.vivo-bottom-right h2 {
+    float: left;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.vivo-bottom-right h3 {
+    font-size: 24px;
+    color: #4164ff;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.vivo-bottom-right p {
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.vivo-bottom-right i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.vivo-bottom-right a {
+    float: left;
+    display: block;
+}
+
+.vivo-bottom-right a:hover {
+    color: #4164ff;
+    transition: all 1s;
+}
+
+.zttb {
+    position: relative;
+}
+
+/* 微信 */
+.zttb .weixin {
+    position: absolute;
+    display: none;
+    top: -200px;
+    left: -35px;
+    background-color: #FFF;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.zttb .weixin img {
+    width: 115px;
+    height: 115px;
+}
+
+
+
+.zttb i:nth-child(2):hover .weixin {
+    display: block;
+}
+
+.zttb i:nth-child(2):hover {
+    color: #4164ff;
+}
+
+.weixin span {
+    position: relative;
+    display: block;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #000;
+    font-family: "微软雅黑";
+}
+
+.weixin::before {
+    position: absolute;
+    bottom: -31px;
+    left: 69px;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 20px solid #fff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+/* 支付宝 */
+.zttb .zfb {
+    position: absolute;
+    display: none;
+    top: -200px;
+    left: 8px;
+    background-color: #FFF;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.zttb .zfb img {
+    width: 115px;
+    height: 115px;
+}
+
+.zfb::before {
+    position: absolute;
+    bottom: -31px;
+    left: 69px;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 20px solid #fff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.zttb i:nth-child(3):hover .zfb {
+    display: block;
+}
+
+.zttb i:nth-child(3):hover {
+    color: #4164ff;
+}
+
+.zfb span {
+    position: relative;
+    display: block;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #000;
+    font-family: "微软雅黑";
+}
+
+.zttb .zfb {
+    position: absolute;
+    display: none;
+    top: -200px;
+    left: 8px;
+    background-color: #FFF;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.zttb .zfb img {
+    width: 115px;
+    height: 115px;
+}
+
+/* 小程序 */
+.zttb .xcx {
+    width: 156px;
+    position: absolute;
+    display: none;
+    top: -200px;
+    left: 8px;
+    background-color: #FFF;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.zttb .xcx img {
+    width: 115px;
+    height: 115px;
+}
+
+.xcx::before {
+    position: absolute;
+    bottom: -31px;
+    left: 69px;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 20px solid #fff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.zttb i:nth-child(4):hover .xcx {
+    display: block;
+}
+
+.zttb i:nth-child(4):hover {
+    color: #4164ff;
+}
+
+.xcx span {
+    position: relative;
+    display: block;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #000;
+    font-family: "微软雅黑";
+}
+
+.zttb .xcx {
+    position: absolute;
+    /* display: none; */
+    float: left;
+    top: -200px;
+    left: 48px;
+    background-color: #FFF;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.zttb .xcx img {
+    width: 115px;
+    height: 115px;
+}
+
+.vivo-last {
+    background-color: #F7F7F7;
+
+}
+
+.vivo-last p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #6f6f6f;
+    margin-left: 184px;
+}
+
+.vivo-last p,
+.vivo-last i,
+.vivo-last a,
+.vivo-last img {
+    float: left;
+    margin-top: 30px;
+}
+
+.vivo-last a {
+    color: #6f6f6f;
+}
+
+
+.vivo-last i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.vivo-last img {
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.vivo-last a:nth-last-child(1) {
+    margin-left: 5px;
+    margin-top: 28px;
+}
+.vivo-bottom-left a:hover{
+    color: #415FFF;
 }

@@ -1,0 +1,650 @@
+.vivo-title {
+    width: 100%;
+    background-color: #333;
+}
+
+.vivo-title-left {
+    float: left;
+    margin-left: 60px;
+}
+
+.vivo-title-right {
+    float: right;
+    margin-right: 60px;
+
+}
+
+.vivo-title-left li {
+    float: left;
+}
+
+.vivo-title-right li {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+
+.vivo-title a {
+    height: 32px;
+    color: #ccc;
+    line-height: 32px;
+    margin-right: 40px;
+}
+
+.vivo-title a:hover {
+    color: #999;
+}
+
+.vivo-title-right .sx::after {
+    content: "|";
+    position: absolute;
+    top: 7px;
+    font-size: 14px;
+    right: 18px;
+    color: #fff;
+}
+
+.nav-top {
+    position: sticky;
+    top: 0px;
+    right: 0;
+    width: 100%;
+    height: 68px;
+    z-index: 999;
+    background-color: #F7F7F7;
+}
+
+.nav-top-left {
+    float: left;
+    height: 68px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.vp-head-logo {
+    float: left;
+    height: 68px;
+}
+
+svg {
+    width: 106px;
+    height: 68px;
+    fill: #000;
+    margin-right: 100px;
+    overflow: hidden;
+}
+
+.nav-top-left span {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-top-left span:hover {
+    color: blue;
+}
+
+.nav-top-right {
+    float: left;
+    width: calc(1200px - 206px);
+    height: 100%;
+}
+
+.nav-top-right ul {
+    height: 68px;
+}
+
+.nav-top-right li {
+    float: left;
+    height: 100%;
+    margin-right: 36px;
+}
+
+.nav-top-right a {
+    line-height: 68px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-top-right li:hover a {
+    color: blue;
+}
+
+/* 隐藏效果 */
+.yincang {
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: -352px;
+    width: 1903px;
+    height: 0px;
+    background-color: #fff;
+}
+
+.nav-top-right-one:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+
+.yingcang-1 {
+    float: left;
+    padding-left: 80px;
+    margin: 0 auto;
+}
+
+.yingcang-1-top {
+    position: relative;
+    width: 160px;
+    height: 200px;
+}
+
+.yingcang-1-bottom {
+    width: 160px;
+    height: 50px;
+    text-align: center;
+}
+
+.yingcang-1-bottom p {
+    font-size: 16px;
+    color: #333;
+}
+
+.yingcang-1-bottom span a {
+    font-size: 12px;
+    color: blue;
+    line-height: 30px;
+}
+
+.yingcang-1-top img {
+    display: block;
+    width: 70px;
+    height: 160px;
+
+}
+
+.iQ-cdt-1 {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.iQ-cdt-2 {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.iQ-cdt-3 {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.iQ-cdt-4 {
+    position: absolute;
+    left: 60px;
+}
+
+.yingcang-1-right {
+    float: right;
+}
+
+.qbjx a {
+    float: right;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #333;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.dbjx a {
+    float: right;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #333;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+.yincang .yingcang-1-right a:hover {
+    transition: all 0.5s;
+    background-color: #415FFF;
+    color: #fff;
+}
+
+.nav-top-right-two:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+
+.nav-top-right-three:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+
+.nav-top-right-four:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+
+.nav-top-right-five:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+
+.nav-top-right-six:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+
+.nav-top-right-seven:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+
+.nav-top-right-eight:hover .yincang {
+    display: block;
+    transition: all 1s;
+    height: 300px;
+}
+
+.daohang {
+    width: 100%;
+    height: 72px;
+    line-height: 72px;
+    font-size: 13px;
+}
+
+svg {
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.dangqian {
+    color: #999;
+}
+
+.base-left {
+    float: left;
+}
+
+.base-right {
+    float: right;
+    width: 510px;
+    height: 713px;
+    overflow: auto;
+}
+.base-right::-webkit-scrollbar {
+    display:none
+}
+.base-left-top img {
+    width: 515px;
+    height: 515px;
+}
+
+.base-left-center {
+    padding-left: 80px;
+}
+
+.base-left-center img {
+    width: 85px;
+    height: 85px;
+}
+
+.base-bottom {
+    padding: 35px 150px;
+    color: #999;
+}
+
+.base-bottom a {
+    color: #666;
+}
+
+svg {
+    fill: #c0c0c0;
+    vertical-align: middle;
+}
+
+.base-right h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.base-right h3 {
+    color: red;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+.base-right p {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.daojishi {
+    width: 100%;
+    height: 53px;
+    background-image: linear-gradient(90deg, #f63a3a, #ff4a5c);
+    line-height: 53px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.daojishi-left {
+    float: left;
+    font-size: 17px;
+}
+
+.daojishi-right {
+    float: right;
+}
+
+svg {
+    fill: #fff;
+    width: 17px;
+    height: 17px;
+    margin-left: 18px;
+    margin-right: 0px;
+}
+
+.daojishi-right .text {
+    font-size: 17px;
+}
+
+.daojishi-right .time {
+    font-size: 15px;
+    color: #ffef6b;
+    margin: 10px;
+}
+
+.liucheng {
+    width: 100%;
+    height: 35px;
+    background-color: #FFECED;
+}
+
+.liucheng p {
+    float: left;
+    margin-left: 18px;
+}
+
+.liucheng span {
+    float: right;
+    line-height: 35px;
+    margin-right: 20px;
+    color: #ff2424;
+    ;
+}
+
+.price {
+    padding: 40px 0;
+    margin: 36px 0 15px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.price-left {
+    float: left;
+    width: 50%;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.price-left dfn {
+    font-size: 27px;
+    color: #f81200
+}
+
+.price-left .number {
+    font-size: 36px;
+    color: #f81200
+}
+
+.price-left-bottom .price-number {
+    font-size: 20px;
+}
+
+.price-right {
+    float: right;
+    width: 50%;
+    height: 71px;
+}
+
+.price-right span {
+    display: inline-block;
+    background-color: #f63a3a;
+    padding: 5px;
+    color: #FFF;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.price-right div {
+    height: 50%;
+}
+
+.price-right-top img {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.price-right strong {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.zffs {
+    font-size: 15px;
+}
+
+svg {
+    fill: #f63a3a;
+    vertical-align: middle;
+}
+
+.banben {
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.types h2 {
+    font-size: 20px;
+}
+
+.types span {
+    display: inline-block;
+    width: 243px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 57px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.banben span:nth-child(2) {
+    color: #f63a3a;
+    border: 1px solid #f63a3a;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.banben span:nth-child(3) {
+    margin-left: 15px;
+}
+
+.banben span:hover {
+    color: #f63a3a;
+}
+
+.yanse {
+    margin-bottom: 45px;
+}
+
+.yanse span:nth-child(2) {
+    position: relative;
+    color: #f63a3a;
+    border: 1px solid #f63a3a;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.yanse span:hover {
+    color: #f63a3a;
+}
+
+.yanse span:nth-child(2)::before {
+    position: absolute;
+    top: 14px;
+    left: 50px;
+    content: "";
+    width: 23px;
+    height: 23px;
+    border: 1px solid #415FFF;
+    border-radius: 50%;
+    background-color: rgb(17, 131, 209);
+    background-image: linear-gradient(to right bottom, rgb(17, 131, 209), rgb(20, 14, 71));
+}
+
+.yanse span:nth-child(3) {
+    position: relative;
+}
+
+.yanse span:nth-child(3)::before {
+    position: absolute;
+    top: 14px;
+    left: 50px;
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: rgb(222, 251, 252);
+    background-image: linear-gradient(to right bottom, rgb(222, 251, 252), rgb(219, 214, 229));
+}
+
+.yanse span:nth-child(4) {
+    position: relative;
+}
+
+.yanse span:nth-child(4)::before {
+    position: absolute;
+    top: 14px;
+    left: 50px;
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: rgb(31, 32, 36);
+    background-image: linear-gradient(to right bottom, rgb(31, 32, 36), rgb(20, 20, 23));
+}
+
+.shuliang {
+    position: relative;
+    padding-bottom: 110px;
+    border-bottom: 1px solid #ccc;
+}
+
+.shuliang-xuanzhe {
+    width: 203px;
+    height: 59px;
+    border: 1px solid #cccd;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.shuliang-xuanzhe {
+    text-align: center;
+    line-height: 62px;
+    font-size: 18px;
+}
+
+.shuliang-xuanzhe-left {
+    float: left;
+    height: 100%;
+    width: 62px;
+    color: #ccc;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: no-drop;
+}
+
+.shuliang-xuanzhe-conter {
+    float: left;
+    width: 77px;
+    height: 100%;
+    color: #000;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.shuliang-xuanzhe-right {
+    float: right;
+    width: 62px;
+    height: 100%;
+    color: #ccc;
+    cursor: no-drop;
+}
+
+.shuliang::after {
+    content: "(仅限购一件)";
+    position: absolute;
+    top: 65px;
+    left: 230px;
+    color: #999;
+}
+.price-last{
+    padding: 58px 0 86px;
+}
+
+.price-last span {
+    float: left;
+    font-size: 25px;
+    color: #f81200;
+    padding-right: 18px;
+    border-right: 1px solid #ccc;
+    margin-right: 18px;
+}
+.price-last p{
+    float: left;
+    color: #666;
+    font-size: 16px;
+}
+.button{
+    width: 170px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px/50%;
+    margin-right: 27px;
+    background-image: linear-gradient(270deg,#ff0c53,#e51422);
+}
