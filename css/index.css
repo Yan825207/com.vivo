@@ -89,9 +89,11 @@ svg {
     width: calc(1200px - 206px);
     height: 100%;
 }
-.nav-top-right ul{
+
+.nav-top-right ul {
     height: 68px;
 }
+
 .nav-top-right li {
     float: left;
     height: 100%;
@@ -227,36 +229,43 @@ svg {
     transition: all 1s;
     height: 300px;
 }
+
 .nav-top-right-three:hover .yincang {
     display: block;
     transition: all 1s;
     height: 300px;
 }
+
 .nav-top-right-four:hover .yincang {
     display: block;
     transition: all 1s;
     height: 300px;
 }
+
 .nav-top-right-five:hover .yincang {
     display: block;
     transition: all 1s;
     height: 300px;
 }
+
 .nav-top-right-six:hover .yincang {
     display: block;
     transition: all 1s;
     height: 300px;
 }
+
 .nav-top-right-seven:hover .yincang {
     display: block;
     transition: all 1s;
     height: 300px;
 }
+
 .nav-top-right-eight:hover .yincang {
     display: block;
     transition: all 1s;
     height: 300px;
 }
+
 /* 隐藏效果结束 */
 
 
@@ -352,11 +361,13 @@ svg {
     background-position: 50% 50%;
     background-size: auto 100%;
 }
-.huanxin-left a{
+
+.huanxin-left a {
     float: left;
     width: 100%;
     height: 100%;
 }
+
 .huanxin-left h2 {
     font-size: 30px;
     color: #fff;
@@ -380,11 +391,13 @@ svg {
     background-position: 50% 50%;
     background-size: auto 100%;
 }
-.huanxin-right a{
+
+.huanxin-right a {
     float: left;
     width: 100%;
     height: 100%;
 }
+
 .huanxin-right h2 {
     font-size: 30px;
     color: #fff;
@@ -410,15 +423,16 @@ svg {
     background-position: 50%;
     margin-bottom: 5px;
 }
-.vivo-X3O-lianjie{
+
+.vivo-X3O-lianjie {
     position: absolute;
     top: 0;
     left: -352px;
     width: 1903px;
     height: 700px;
 }
+
 .X3O-content img {
-    /* width: 286px; */
     height: 54px;
     margin-top: 204px;
 }
@@ -448,7 +462,9 @@ svg {
     font-weight: 500;
     color: #FFF;
 }
-
+.X3O-content-one{
+z-index: 10;
+}
 .X3O-content i {
     position: absolute;
     top: 95px;
@@ -470,6 +486,14 @@ svg {
 }
 
 /* iQOO Pro  */
+.iQOO-lianjie {
+    position: absolute;
+    top: 0;
+    left: -352px;
+    width: 1903px;
+    height: 700px;
+}
+
 .iQOO {
     width: 100%;
     height: 700px;
@@ -522,7 +546,10 @@ svg {
     color: #FFF;
     font-weight: bold;
 }
-
+.iQOO-content-one,
+.iQOO-content-two {
+    z-index: 10;
+}
 .iQOO-content a:hover strong {
     color: blue;
     border-bottom: 2px solid blue;
