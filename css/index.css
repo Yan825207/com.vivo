@@ -275,7 +275,7 @@ svg {
     position: relative;
     width: 100%;
     height: 700px;
-    background-image: url(../img/12.12.png);
+    background-image: url(../images/12.12.png);
     background-repeat: no-repeat;
     background-size: auto 700px;
     background-position: 50%;
@@ -359,7 +359,7 @@ svg {
     float: left;
     height: 100%;
     width: 948px;
-    background-image: url(../img/huanxin-1.jpg);
+    background-image: url(../images/huanxin-1.jpg);
     background-position: 50% 50%;
     background-size: auto 100%;
 }
@@ -389,7 +389,7 @@ svg {
     float: right;
     height: 100%;
     width: 948px;
-    background-image: url(../img/huanxin-2.png);
+    background-image: url(../images/huanxin-2.png);
     background-position: 50% 50%;
     background-size: auto 100%;
 }
@@ -419,7 +419,7 @@ svg {
     position: relative;
     width: 100%;
     height: 700px;
-    background-image: url(../img/X3Oxilie.jpg);
+    background-image: url(../images/X3Oxilie.jpg);
     background-repeat: no-repeat;
     background-size: auto 700px;
     background-position: 50%;
@@ -499,7 +499,7 @@ z-index: 10;
 .iQOO {
     width: 100%;
     height: 700px;
-    background-image: url(../img/iQQO.jpg);
+    background-image: url(../images/iQQO.jpg);
     background-repeat: no-repeat;
     background-size: auto 700px;
     background-position: 50%;
@@ -575,7 +575,7 @@ z-index: 10;
     float: left;
     width: 25%;
     height: 580px;
-    background-image: url(../img/ggw-1.jpg);
+    background-image: url(../images/ggw-1.jpg);
     background-position: center center;
     background-size: auto 100%;
     overflow: hidden;
@@ -611,15 +611,15 @@ z-index: 10;
 }
 
 .ggw-two {
-    background-image: url(../img/ggw-2.jpg);
+    background-image: url(../images/ggw-2.jpg);
 }
 
 .ggw-three {
-    background-image: url(../img/ggw-3.jpg);
+    background-image: url(../images/ggw-3.jpg);
 }
 
 .ggw-four {
-    background-image: url(../img/ggw-4.jpg);
+    background-image: url(../images/ggw-4.jpg);
 }
 
 .ggw-two h2,
